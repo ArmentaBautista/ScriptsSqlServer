@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ErpriseExpediente">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="104.192.7.80:su">
+          <Created>2023-04-14T01:48:06.2621985-06:00</Created>
+          <Type>SQL</Type>
+          <Server>104.192.7.80</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0 Borrado Tablas OPCIONAL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0 Borrado Tablas OPCIONAL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.1 Configuracion Requisitos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.1 Configuracion Requisitos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.2 Configuracion Requisitos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.2 Configuracion Requisitos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 Tablas (deprecated).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01 Tablas (deprecated).sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.1 Script General de Tablas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.1 Script General de Tablas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.3 Triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.3 Triggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 vDIGrequisitosAgrupador.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>05 vDIGrequisitosAgrupador.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 pGRLpersonas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>09 pGRLpersonas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09.1 pAYCcuentas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>09.1 pAYCcuentas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 pDIGexpediente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>10 pDIGexpediente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10.1 pDIGarchivos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>10.1 pDIGarchivos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10.2 pCTLestatus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>10.2 pCTLestatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="100 WORKFILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>100 WORKFILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 tCTLusuarios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>11 tCTLusuarios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 pCTLusuarios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>12 pCTLusuarios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 pCnDIGexpedientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>13 pCnDIGexpedientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50 Importacion de Personas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>50 Importacion de Personas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="999 pArchivosRequisito.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>999 pArchivosRequisito.sql</FullPath>
+        </FileNode>
+        <FileNode Name="999 pDIGexpediente DEPRECATED.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>999 pDIGexpediente DEPRECATED.sql</FullPath>
+        </FileNode>
+        <FileNode Name="999 pDIGinsertarArchivo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>999 pDIGinsertarArchivo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="999 pDIGinsertarExpediente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>999 pDIGinsertarExpediente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="migra_persona.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>migra_persona.sql</FullPath>
+        </FileNode>
+        <FileNode Name="personas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>personas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tAYCcuentas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>tAYCcuentas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Workfile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>Workfile.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

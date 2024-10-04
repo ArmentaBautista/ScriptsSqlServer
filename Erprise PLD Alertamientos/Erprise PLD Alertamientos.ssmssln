@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ErprisePldAlertamientos", "ErprisePldAlertamientos\ErprisePldAlertamientos.ssmssqlproj", "{7A1408D4-6DF5-4699-8CAD-A7A8C5103007}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B4AAD92-C687-4C3E-9A06-8A37F542C07E}.Default|Default.ActiveCfg = Default
+		{7A1408D4-6DF5-4699-8CAD-A7A8C5103007}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B10FE103-1DCD-427E-994D-06B5A2FA4892}
+	EndGlobalSection
+EndGlobal
