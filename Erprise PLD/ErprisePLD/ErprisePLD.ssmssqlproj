@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ErprisePLD">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="104.192.7.80:su">
+          <Created>2023-08-17T01:01:04.2482493-06:00</Created>
+          <Type>SQL</Type>
+          <Server>104.192.7.80</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.0.155:su">
+          <Created>2023-08-18T00:42:09.9987206-06:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.0.155</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.8.2:su">
+          <Created>2024-03-13T17:14:52.4686113-06:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.8.2</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>iERP_CAZ</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="74.208.16.140:su">
+          <Created>2024-04-23T23:28:32.9749353-06:00</Created>
+          <Type>SQL</Type>
+          <Server>74.208.16.140</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="74.208.168.84:su">
+          <Created>2023-08-17T09:03:56.9468092-06:00</Created>
+          <Type>SQL</Type>
+          <Server>74.208.168.84</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="cyl.erprise.mx:su">
+          <Created>2023-09-21T21:41:52.0062835-06:00</Created>
+          <Type>SQL</Type>
+          <Server>cyl.erprise.mx</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0.00 tPLDobjetosModulo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.00 tPLDobjetosModulo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.01 tPLDmatrizConfiguracionEdades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.01 tPLDmatrizConfiguracionEdades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.02 tPLDmatrizConfiguracionGenero.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.02 tPLDmatrizConfiguracionGenero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.03 tPLDmatrizConfiguracionGeografia.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.03 tPLDmatrizConfiguracionGeografia.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.04 tPLDmatrizConfiguracionIngresos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.04 tPLDmatrizConfiguracionIngresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.05 tPLDmatrizConfiguracionInstrumentos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.05 tPLDmatrizConfiguracionInstrumentos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.06 tPLDmatrizConfiguracionListas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.06 tPLDmatrizConfiguracionListas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.07 tPLDmatrizConfiguracionNivelesRiesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.07 tPLDmatrizConfiguracionNivelesRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.08 tPLDmatrizConfiguracionPonderaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.08 tPLDmatrizConfiguracionPonderaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.09 tPLDmatrizConfiguracionProductosServicios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.09 tPLDmatrizConfiguracionProductosServicios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.10 tPLDmatrizConfiguracionTipoSocio.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.10 tPLDmatrizConfiguracionTipoSocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.11 tPLDmatrizConfiguracionTransaccionalidad.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.11 tPLDmatrizConfiguracionTransaccionalidad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.12 tPLDmatrizEvaluacionesRiesgo ALL TABLES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.12 tPLDmatrizEvaluacionesRiesgo ALL TABLES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.13 tPLDmatrizConfiguracionSucursales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.13 tPLDmatrizConfiguracionSucursales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.14 tPLDmatrizConfiguracionActividad.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.14 tPLDmatrizConfiguracionActividad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.15 tPLDcatalogoInusualidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.15 tPLDcatalogoInusualidades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.16 tPLDmatrizConfiguracionOcupaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.16 tPLDmatrizConfiguracionOcupaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.17 ADD COLUMN Tipo ConfiguracionEdades .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.17 ADD COLUMN Tipo ConfiguracionEdades .sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.18 tPLDmatrizConfiguracionTransaccionalidadNumeroOperaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.18 tPLDmatrizConfiguracionTransaccionalidadNumeroOperaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.19 IX_tSDOtransaccionesFinancieras_INC_IdOperacion_IdCuenta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.19 IX_tSDOtransaccionesFinancieras_INC_IdOperacion_IdCuenta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.21 ALTER COLUMN VALOR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.21 ALTER COLUMN VALOR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.22 tPLDmatrizConfiguracionOrigenDestinoRecursos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.22 tPLDmatrizConfiguracionOrigenDestinoRecursos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.23 Parametro Modulo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.23 Parametro Modulo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.24 tPLDmatrizConfiguracionPagoAnticipado.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.24 tPLDmatrizConfiguracionPagoAnticipado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.25 tPLDmatrizConfiguracionFactoresParaNivelRiesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.25 tPLDmatrizConfiguracionFactoresParaNivelRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1.01 vPLDusuariosLogin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>1.01 vPLDusuariosLogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.01 fnPLDmatrizEvaluacionEdades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.01 fnPLDmatrizEvaluacionEdades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.02 fnPLDobtenerUltimoPerfilSocios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.02 fnPLDobtenerUltimoPerfilSocios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.03 fnPLDultimaEvaluacionPorSocio.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.03 fnPLDultimaEvaluacionPorSocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.04 fnPLDemailsCCC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.04 fnPLDemailsCCC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.05 fnPLDorigenesRecursosSocios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.05 fnPLDorigenesRecursosSocios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.06 fnPLDdestinosRecursosSocios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.06 fnPLDdestinosRecursosSocios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.07 fnPLDelementoCalculoNivelRiesgoActivo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.07 fnPLDelementoCalculoNivelRiesgoActivo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.08 ifPLDsociosYaEvaluados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.08 ifPLDsociosYaEvaluados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.01 pPLDevaluacionDeRiesgo v1.1.1.7.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.01 pPLDevaluacionDeRiesgo v1.1.1.7.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.01 pPLDevaluacionDeRiesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.01 pPLDevaluacionDeRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.02 pCnPLDmatrizEvaluacionNivelDeRiesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.02 pCnPLDmatrizEvaluacionNivelDeRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.03 pCTLpermisosPorPerfilPorUsuario.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.03 pCTLpermisosPorPerfilPorUsuario.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.04 pPLDf3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.04 pPLDf3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.05 pPLDdeteccionInusualidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.05 pPLDdeteccionInusualidades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.06 pCnPLDoperacionesMetodoPago.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.06 pCnPLDoperacionesMetodoPago.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.07 pPLDevaluacionDeRiesgoDesdeErprise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.07 pPLDevaluacionDeRiesgoDesdeErprise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.08 pPLDdeterminarNivelRiesgoSocio.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.08 pPLDdeterminarNivelRiesgoSocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.09 pActualizacionNivelRiesgoSociosDesdeUltimaEvaluacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.09 pActualizacionNivelRiesgoSociosDesdeUltimaEvaluacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.10 pCnSCSoperacionesSocioAltoRiesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.10 pCnSCSoperacionesSocioAltoRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.11 pADMEliminarConstraints.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.11 pADMEliminarConstraints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4.01 trAlertasOficialCumplimiento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>4.01 trAlertasOficialCumplimiento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.01 Fix Canales Distribución.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.01 Fix Canales Distribución.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.02 Fix Metodos Pago.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.02 Fix Metodos Pago.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.03 Fix Datos Transaccionales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.03 Fix Datos Transaccionales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.03.1 Fix Datos Transaccionales Abiertos NUM RET.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.03.1 Fix Datos Transaccionales Abiertos NUM RET.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.04 Fix Campos FechaHora tSDOtransaccionFinancieraPagoAdelantadoAnticipado.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.04 Fix Campos FechaHora tSDOtransaccionFinancieraPagoAdelantadoAnticipado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.05 Columnas Numero y Montos 2.6.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.05 Columnas Numero y Montos 2.6.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.06 Fix Datos Transaccionales Abiertos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.06 Fix Datos Transaccionales Abiertos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.07 Fix Titulo pCnSCSoperacionesSocioaltoRiesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.07 Fix Titulo pCnSCSoperacionesSocioaltoRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.08 Fix Alter Puntos 7-4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.08 Fix Alter Puntos 7-4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.09 FIX Columns Categoria Tabla Configuraciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.09 FIX Columns Categoria Tabla Configuraciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.10 FIX Desactivar Parámetros Obsoletos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.10 FIX Desactivar Parámetros Obsoletos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.11 FIX ParametroPLD Omitir Transac Declarada.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>5.11 FIX ParametroPLD Omitir Transac Declarada.sql</FullPath>
+        </FileNode>
+        <FileNode Name="A INSERT DUMMY CONFIGURACION PODERACIONES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>A INSERT DUMMY CONFIGURACION PODERACIONES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B INSERT DUMMY DE EDADES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>B INSERT DUMMY DE EDADES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="C INSERT DUMMY GEOGRAFÍA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>C INSERT DUMMY GEOGRAFÍA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="D INSERT DUMMY INGRESOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>D INSERT DUMMY INGRESOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="E INSERT DUMMY INSTRUMENTOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>E INSERT DUMMY INSTRUMENTOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="F INSERT DUMMY LISTAS Y TERCEROS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>F INSERT DUMMY LISTAS Y TERCEROS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="G INSERT DUMMY NIVELES DE RIESGO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>G INSERT DUMMY NIVELES DE RIESGO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="H INSERT DUMMY PRDUCTOS SERVICIOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>H INSERT DUMMY PRDUCTOS SERVICIOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="I INSERT DUMMY TRANSACCIONALIDAD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>I INSERT DUMMY TRANSACCIONALIDAD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="J INSERT DUMMY SUCURSALES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>J INSERT DUMMY SUCURSALES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="K INSERT DUMMY ACTIVIDADES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>K INSERT DUMMY ACTIVIDADES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="L INSERT DUMMY OCUPACIONES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>L INSERT DUMMY OCUPACIONES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="M INSERT DUMMY TRANSACCIONALIDAD NUMERO DE OPERACIONES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>M INSERT DUMMY TRANSACCIONALIDAD NUMERO DE OPERACIONES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="N INSERT DUMMY CANALES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>N INSERT DUMMY CANALES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pagos Anticipados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.0.155:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.0.155</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>Pagos Anticipados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLD Evaluacion Nivel de Riesgo v2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PLD Evaluacion Nivel de Riesgo v2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLD Evaluacion Nivel de Riesgo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PLD Evaluacion Nivel de Riesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pPLDevaluacionDeRiesgo v230606.1943.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pPLDevaluacionDeRiesgo v230606.1943.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF Listado de Objetos Modulo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>WF Listado de Objetos Modulo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF Test Evaluaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>WF Test Evaluaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF Test sp evaluacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>WF Test sp evaluacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>WF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WORKFILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>WORKFILE.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="README.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>README.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
