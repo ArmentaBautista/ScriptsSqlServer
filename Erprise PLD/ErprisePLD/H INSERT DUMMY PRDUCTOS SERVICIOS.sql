@@ -5,7 +5,7 @@
 -- SELECT FLOOR(rand()*101)
 -- -- Productos = 1,  Servicios = 2,
 -- SELECT * FROM tPLDmatrizConfiguracionProductosServicios
- TRUNCATE TABLE tPLDmatrizConfiguracionProductosServicios
+-- TRUNCATE TABLE tPLDmatrizConfiguracionProductosServicios
 GO
 
  /* =^..^=   =^..^=   =^..^=    =^..^=    =^..^=    =^..^=    =^..^= */
@@ -26,8 +26,9 @@ DECLARE miCursor CURSOR local FAST_FORWARD READ_ONLY FOR SELECT pf.IdProductoFin
 OPEN miCursor
 FETCH NEXT FROM miCursor INTO @IdRegistro,@descripcion
 WHILE @@FETCH_STATUS = 0
-BEGIN    
-	INSERT INTO dbo.tPLDmatrizConfiguracionProductosServicios (Tipo,IdValor1,ValorDescripcion,Puntos) VALUES(1,@IdRegistro,@descripcion,1)
+BEGIN
+    IF NOT exists(SELECT 1 FROM tPLDmatrizConfiguracionProductosServicios prod WITH (NOLOCK) WHERE Tipo=1 AND IdValor1=@IdRegistro)
+	    INSERT INTO dbo.tPLDmatrizConfiguracionProductosServicios (Tipo,IdValor1,ValorDescripcion,Puntos) VALUES(1,@IdRegistro,@descripcion,1)
 
     FETCH NEXT FROM miCursor INTO @IdRegistro,@descripcion
 END

@@ -48,7 +48,7 @@ BEGIN
 		Valor				VARCHAR(10) NOT NULL,
 		ValorDescripcion	VARCHAR(256) NULL,
 		Puntos				INT NOT NULL DEFAULT 0,
-		IdEstatus 			INT NOT NULL,
+		IdEstatus 			INT NOT NULL
 	)	
 	SELECT 'tPLDmatrizEvaluacionesRiesgoCalificaciones Creada' AS info
 

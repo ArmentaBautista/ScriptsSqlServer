@@ -9,10 +9,10 @@
  TRUNCATE TABLE tPLDmatrizConfiguracionInstrumentosCanales
 
 
- /* =^..^=   =^..^=   =^..^=    =^..^=    =^..^=    =^..^=    =^..^= */
+
  /* PRODUCTOS */
 
--- cursor de inserción para generar el puntaje  dummy
+-- cursor de inserciï¿½n para generar el puntaje  dummy
 DECLARE @IdRegistro INT
 DECLARE @descripcion VARCHAR(128)
 DECLARE miCursor CURSOR LOCAL FAST_FORWARD READ_ONLY FOR SELECT mp.IdMetodoPago, mp.Descripcion FROM dbo.tCATmetodosPago mp  WITH(NOLOCK) WHERE mp.IdMetodoPago<>0

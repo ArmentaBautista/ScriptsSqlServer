@@ -6,7 +6,7 @@
 -- SELECT FLOOR(rand()*101)
 -- Asentamiento=1, Ciudad=2, Municipio=3, Estado=4, Pa�s=5, Nacionalidad = 6
 -- SELECT * FROM tPLDmatrizConfiguracionGeografia
- TRUNCATE TABLE tPLDmatrizConfiguracionGeografia
+-- TRUNCATE TABLE tPLDmatrizConfiguracionGeografia
  GO
  
 /* INFO (⊙_☉) JCA.17/08/2023.09:43 a. m. 

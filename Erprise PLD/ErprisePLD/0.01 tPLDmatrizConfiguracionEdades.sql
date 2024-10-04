@@ -19,3 +19,7 @@ BEGIN
 	SELECT 'Tabla Creada' AS info	
 END
 GO
+
+select
+    *
+from dbo.tPLDmatrizConfiguracionEdades
