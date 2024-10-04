@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CAZ ASEMEX">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="104.192.7.80:su">
+          <Created>2023-08-10T12:14:14.5727939-06:00</Created>
+          <Type>SQL</Type>
+          <Server>104.192.7.80</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.168.8.2:su">
+          <Created>2023-08-06T09:47:15.9509927-06:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.8.2</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CAZ Seguros - 01 tASEMEXparentescos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 01 tASEMEXparentescos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 02 tASEMEXestados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 02 tASEMEXestados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 03 fnLSTprimerTelefonoCelular.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 03 fnLSTprimerTelefonoCelular.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 04 fnAYCpivotBeneficiarios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 04 fnAYCpivotBeneficiarios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 05 fnAYCpivotDatosBeneficiarios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 05 fnAYCpivotDatosBeneficiarios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 07 pASEMEXreporteSeguros.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 07 pASEMEXreporteSeguros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 10 Consulta Principal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 10 Consulta Principal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 11 Consulta de Seguros basada en contratos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 11 Consulta de Seguros basada en contratos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 12 pASEMEXreporteSeguros.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 12 pASEMEXreporteSeguros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 13 pASEMEXreporteContratosSegurosVida.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 13 pASEMEXreporteContratosSegurosVida.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 14 pASEMEXreporteContratosSegurosVida2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 14 pASEMEXreporteContratosSegurosVida2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 15 pASEMEXdatosContratos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 15 pASEMEXdatosContratos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 17 vASEMEXdomiciliosPrincipales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 17 vASEMEXdomiciliosPrincipales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 18 pASEMEXreporteContratosSegurosVida v3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 18 pASEMEXreporteContratosSegurosVida v3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 19 fnASEMEXsucursales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 19 fnASEMEXsucursales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 20 pASEMEXdatosContratos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 20 pASEMEXdatosContratos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CAZ Seguros - 21 FIX consultas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>CAZ Seguros - 21 FIX consultas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="workfile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.8.2:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.8.2</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>workfile.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

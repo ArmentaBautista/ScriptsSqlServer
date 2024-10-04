@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CAZ ASEMEX", "CAZ ASEMEX.ssmssqlproj", "{AB15143A-8EE7-4F08-8BCD-8E5FA1267303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA7F135-7255-4AB7-8AD4-CB2F81B0C2A8}.Default|Default.ActiveCfg = Default
+		{AB15143A-8EE7-4F08-8BCD-8E5FA1267303}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1C68628-9EBB-4F83-9424-D6CA8AA54C1B}
+	EndGlobalSection
+EndGlobal
