@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), SQL document design file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Document>
+  <Properties>
+    <Type>SQL Document Design</Type>
+    <DatabaseProvider>aa8afe9c-7d62-4564-b477-c12e62e0f440</DatabaseProvider>
+    <ProviderVersion>6.4.7.0</ProviderVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </Properties>
+  <Connection>
+    <ConnectionModel>
+      <PropertyValue Name="OverrideMFA">false</PropertyValue>
+      <PropertyValue Name="Database">aa8afe9c-7d62-4564-b477-c12e62e0f440</PropertyValue>
+      <PropertyValue Name="ConnectionString" xml:space="preserve">Data Source=104.192.7.80;Initial Catalog=intelixDEV;Integrated Security=False;User ID=su</PropertyValue>
+      <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
+    </ConnectionModel>
+    <Database>intelixDEV</Database>
+  </Connection>
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="32">
+    <View Name="Design" Visible="False" />
+    <View Name="Code" Active="True" Visible="True">
+      <Data />
+    </View>
+    <View Name="Data" Visible="True" />
+    <View Name="Profiler" Visible="True">
+      <Data>
+        <ProfilerHistory>
+          <ProfilerResult Date="2024-04-21 17:02:00Z" DisplayName="" Duration="0">
+            <SQL>
+DECLARE @pElementoBuscado AS VARCHAR(20)='lopez';
+
+
+DECLARE @IdPersona AS INT;
+SELECT @IdPersona=IdPersona FROM tGRLpersonas p WHERE p.Nombre LIKE '%'+@pElementoBuscado+'%'
+
+
+SELECT 
+suc.Descripcion AS Sucursal,
+sc.Codigo AS NoSocio,
+p.Nombre,
+p.Domicilio,
+nombre
+FROM tGRLpersonas p
+INNER JOIN tSCSsocios sc
+  ON sc.IdPersona = p.IdPersona
+INNER JOIN tCTLsucursales suc
+  ON sc.IdSucursal = suc.IdSucursal
+WHERE p.IdPersona=@IdPersona
+
+
+</SQL>
+            <Properties>
+              <PropertiesRow>
+                <Name>ConnectionString</Name>
+                <Value>Data Source=104.192.7.80;Initial Catalog=intelixDEV;Integrated Security=False;User ID=su</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ServerVersion</Name>
+                <Value>15.00.2110</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Execution Time -&gt; CPU</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Execution Time -&gt; Elapsed</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Parse and Compile Time -&gt; CPU</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Parse and Compile Time -&gt; Elapsed</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ProfilingResultTime</Name>
+                <Value>17:02:00 21/4/2024</Value>
+              </PropertiesRow>
+            </Properties>
+            <WaitStats />
+            <Elements>
+              <Element Name="&#xD;&#xA;DECLARE @pElementoBuscado AS VARCHAR(20)='lopez';&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" StatementId="1" Actual="False" SqlQuery="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SELECT &#xD;&#xA;suc.Descripcion AS Sucursal,&#xD;&#xA;sc.Codigo AS NoSocio,&#xD;&#xA;p.Nombre,&#xD;&#xA;p.Domicilio,&#xD;&#xA;nombre&#xD;&#xA;FROM tGRLpersonas p&#xD;&#xA;INNER JOIN tSCSsocios sc&#xD;&#xA;  ON sc.IdPersona = p.IdPersona&#xD;&#xA;INNER JOIN tCTLsucursales suc&#xD;&#xA;  ON sc.IdSucursal = suc.IdSucursal&#xD;&#xA;WHERE p.IdPersona=@IdPersona">
+                <ShowPlanXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.539" Build="15.0.2110.4" xmlns="http://schemas.microsoft.com/sqlserver/2004/07/showplan">
+                  <BatchSequence>
+                    <Batch>
+                      <Statements>
+                        <StmtSimple StatementCompId="1" StatementId="1" StatementText="&#xD;&#xA;DECLARE @pElementoBuscado AS VARCHAR(20)='lopez';&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" StatementType="ASSIGN" RetrievedFromCache="true" />
+                        <StmtSimple StatementCompId="2" StatementEstRows="12294.1" StatementId="2" StatementOptmLevel="FULL" CardinalityEstimationModelVersion="130" StatementSubTreeCost="6.29911" StatementText="DECLARE @IdPersona AS INT;&#xD;&#xA;SELECT @IdPersona=IdPersona FROM tGRLpersonas p WHERE p.Nombre LIKE '%'+@pElementoBuscado+'%'" StatementType="SELECT" QueryHash="0xB67B65739E63D631" QueryPlanHash="0xE3FBC4F420B0B78C" RetrievedFromCache="true" SecurityPolicyApplied="false">
+                          <StatementSetOptions ANSI_NULLS="true" ANSI_PADDING="true" ANSI_WARNINGS="true" ARITHABORT="true" CONCAT_NULL_YIELDS_NULL="true" NUMERIC_ROUNDABORT="false" QUOTED_IDENTIFIER="true" />
+                          <QueryPlan CachedPlanSize="24" CompileTime="2" CompileCPU="2" CompileMemory="264">
+                            <ThreadStat Branches="1" />
+                            <MissingIndexes>
+                              <MissingIndexGroup Impact="88.4232">
+                                <MissingIndex Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]">
+                                  <ColumnGroup Usage="INEQUALITY">
+                                    <Column Name="[Nombre]" ColumnId="2" />
+                                  </ColumnGroup>
+                                </MissingIndex>
+                              </MissingIndexGroup>
+                            </MissingIndexes>
+                            <MemoryGrantInfo SerialRequiredMemory="0" SerialDesiredMemory="0" GrantedMemory="0" MaxUsedMemory="0" />
+                            <OptimizerHardwareDependentProperties EstimatedAvailableMemoryGrant="384000" EstimatedPagesCached="192000" EstimatedAvailableDegreeOfParallelism="4" MaxCompileMemory="17476448" />
+                            <RelOp AvgRowSize="11" EstimateCPU="0.0342582" EstimateIO="0" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="12294.1" LogicalOp="Gather Streams" NodeId="0" Parallel="true" PhysicalOp="Parallelism" EstimatedTotalSubtreeCost="6.29911">
+                              <OutputList>
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                              </OutputList>
+                              <Parallelism>
+                                <RelOp AvgRowSize="140" EstimateCPU="0.0376045" EstimateIO="6.1972" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="12294.1" EstimatedRowsRead="136601" LogicalOp="Clustered Index Scan" NodeId="1" Parallel="true" PhysicalOp="Clustered Index Scan" EstimatedTotalSubtreeCost="6.2348" TableCardinality="136601">
+                                  <OutputList>
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                                  </OutputList>
+                                  <IndexScan Ordered="false" ForcedIndex="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                    <DefinedValues>
+                                      <DefinedValue>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                                      </DefinedValue>
+                                    </DefinedValues>
+                                    <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Index="[PK_tCATpersonas]" Alias="[p]" IndexKind="Clustered" Storage="RowStore" />
+                                    <Predicate>
+                                      <ScalarOperator ScalarString="[intelixDEV].[dbo].[tGRLpersonas].[Nombre] as [p].[Nombre] like '%'+[@pElementoBuscado]+'%'">
+                                        <Intrinsic FunctionName="like">
+                                          <ScalarOperator>
+                                            <Identifier>
+                                              <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                            </Identifier>
+                                          </ScalarOperator>
+                                          <ScalarOperator>
+                                            <Identifier>
+                                              <ColumnReference Column="ConstExpr1001">
+                                                <ScalarOperator>
+                                                  <Arithmetic Operation="ADD">
+                                                    <ScalarOperator>
+                                                      <Arithmetic Operation="ADD">
+                                                        <ScalarOperator>
+                                                          <Const ConstValue="'%'" />
+                                                        </ScalarOperator>
+                                                        <ScalarOperator>
+                                                          <Identifier>
+                                                            <ColumnReference Column="@pElementoBuscado" />
+                                                          </Identifier>
+                                                        </ScalarOperator>
+                                                      </Arithmetic>
+                                                    </ScalarOperator>
+                                                    <ScalarOperator>
+                                                      <Const ConstValue="'%'" />
+                                                    </ScalarOperator>
+                                                  </Arithmetic>
+                                                </ScalarOperator>
+                                              </ColumnReference>
+                                            </Identifier>
+                                          </ScalarOperator>
+                                        </Intrinsic>
+                                      </ScalarOperator>
+                                    </Predicate>
+                                  </IndexScan>
+                                  <Progress xsi:nil="true" />
+                                </RelOp>
+                              </Parallelism>
+                              <Progress xsi:nil="true" />
+                            </RelOp>
+                          </QueryPlan>
+                        </StmtSimple>
+                        <StmtSimple StatementCompId="3" StatementEstRows="1.05144" StatementId="3" StatementOptmLevel="FULL" CardinalityEstimationModelVersion="130" StatementSubTreeCost="2.51745" StatementText="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SELECT &#xD;&#xA;suc.Descripcion AS Sucursal,&#xD;&#xA;sc.Codigo AS NoSocio,&#xD;&#xA;p.Nombre,&#xD;&#xA;p.Domicilio,&#xD;&#xA;nombre&#xD;&#xA;FROM tGRLpersonas p&#xD;&#xA;INNER JOIN tSCSsocios sc&#xD;&#xA;  ON sc.IdPersona = p.IdPersona&#xD;&#xA;INNER JOIN tCTLsucursales suc&#xD;&#xA;  ON sc.IdSucursal = suc.IdSucursal&#xD;&#xA;WHERE p.IdPersona=@IdPersona" StatementType="SELECT" QueryHash="0xEC4C291692225084" QueryPlanHash="0xD0FCB9CE10444FA4" RetrievedFromCache="true" SecurityPolicyApplied="false">
+                          <StatementSetOptions ANSI_NULLS="true" ANSI_PADDING="true" ANSI_WARNINGS="true" ARITHABORT="true" CONCAT_NULL_YIELDS_NULL="true" NUMERIC_ROUNDABORT="false" QUOTED_IDENTIFIER="true" />
+                          <QueryPlan CachedPlanSize="32" CompileTime="8" CompileCPU="8" CompileMemory="480">
+                            <MissingIndexes>
+                              <MissingIndexGroup Impact="99.5849">
+                                <MissingIndex Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]">
+                                  <ColumnGroup Usage="EQUALITY">
+                                    <Column Name="[IdPersona]" ColumnId="10" />
+                                  </ColumnGroup>
+                                </MissingIndex>
+                              </MissingIndexGroup>
+                            </MissingIndexes>
+                            <MemoryGrantInfo SerialRequiredMemory="0" SerialDesiredMemory="0" GrantedMemory="0" MaxUsedMemory="0" />
+                            <OptimizerHardwareDependentProperties EstimatedAvailableMemoryGrant="384000" EstimatedPagesCached="192000" EstimatedAvailableDegreeOfParallelism="4" MaxCompileMemory="17476448" />
+                            <OptimizerStatsUsage>
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[_WA_Sys_0000000A_3DBEDDDC]" ModificationCount="1050" SamplingPercent="41.4677" LastUpdate="2017-07-26T15:46:44.85" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[UK_tSCSsocios_Codigo]" ModificationCount="1065" SamplingPercent="41.4677" LastUpdate="2017-07-26T15:46:44.7" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Statistics="[PK_tCTLsucursales]" ModificationCount="48" SamplingPercent="100" LastUpdate="2017-07-26T15:46:33.92" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[IX_tSCSsocios_IdEstatus]" ModificationCount="57" SamplingPercent="100" LastUpdate="2023-12-07T18:28:39.52" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[_WA_Sys_00000011_3DBEDDDC]" ModificationCount="1094" SamplingPercent="41.4677" LastUpdate="2017-07-26T15:46:45.04" />
+                            </OptimizerStatsUsage>
+                            <RelOp AvgRowSize="448" EstimateCPU="4.39502E-06" EstimateIO="0" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1.05144" LogicalOp="Inner Join" NodeId="0" Parallel="false" PhysicalOp="Nested Loops" EstimatedTotalSubtreeCost="2.51745">
+                              <OutputList>
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Domicilio" />
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                              </OutputList>
+                              <NestedLoops Optimized="false">
+                                <RelOp AvgRowSize="394" EstimateCPU="0.0001581" EstimateIO="0.003125" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1" EstimatedRowsRead="1" LogicalOp="Clustered Index Seek" NodeId="1" Parallel="false" PhysicalOp="Clustered Index Seek" EstimatedTotalSubtreeCost="0.0032831" TableCardinality="136601">
+                                  <OutputList>
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Domicilio" />
+                                  </OutputList>
+                                  <IndexScan Ordered="true" ScanDirection="FORWARD" ForcedIndex="false" ForceSeek="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                    <DefinedValues>
+                                      <DefinedValue>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                      </DefinedValue>
+                                      <DefinedValue>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Domicilio" />
+                                      </DefinedValue>
+                                    </DefinedValues>
+                                    <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Index="[PK_tCATpersonas]" Alias="[p]" IndexKind="Clustered" Storage="RowStore" />
+                                    <SeekPredicates>
+                                      <SeekPredicateNew>
+                                        <SeekKeys>
+                                          <Prefix ScanType="EQ">
+                                            <RangeColumns>
+                                              <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                                            </RangeColumns>
+                                            <RangeExpressions>
+                                              <ScalarOperator ScalarString="[@IdPersona]">
+                                                <Identifier>
+                                                  <ColumnReference Column="@IdPersona" />
+                                                </Identifier>
+                                              </ScalarOperator>
+                                            </RangeExpressions>
+                                          </Prefix>
+                                        </SeekKeys>
+                                      </SeekPredicateNew>
+                                    </SeekPredicates>
+                                  </IndexScan>
+                                  <Progress xsi:nil="true" />
+                                </RelOp>
+                                <RelOp AvgRowSize="63" EstimateCPU="4.39512E-06" EstimateIO="0" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1.05144" LogicalOp="Inner Join" NodeId="2" Parallel="false" PhysicalOp="Nested Loops" EstimatedTotalSubtreeCost="2.51416">
+                                  <OutputList>
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                                  </OutputList>
+                                  <NestedLoops Optimized="false">
+                                    <OuterReferences>
+                                      <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                    </OuterReferences>
+                                    <RelOp AvgRowSize="29" EstimateCPU="0.0946547" EstimateIO="2.37498" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1.05146" EstimatedRowsRead="85907" LogicalOp="Clustered Index Scan" NodeId="3" Parallel="false" PhysicalOp="Clustered Index Scan" EstimatedTotalSubtreeCost="2.46963" TableCardinality="85907">
+                                      <OutputList>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                      </OutputList>
+                                      <IndexScan Ordered="false" ForcedIndex="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                        <DefinedValues>
+                                          <DefinedValue>
+                                            <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                          </DefinedValue>
+                                          <DefinedValue>
+                                            <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                          </DefinedValue>
+                                        </DefinedValues>
+                                        <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Index="[PK_tCATsocios]" Alias="[sc]" IndexKind="Clustered" Storage="RowStore" />
+                                        <Predicate>
+                                          <ScalarOperator ScalarString="[intelixDEV].[dbo].[tSCSsocios].[IdPersona] as [sc].[IdPersona]=[@IdPersona]">
+                                            <Compare CompareOp="EQ">
+                                              <ScalarOperator>
+                                                <Identifier>
+                                                  <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdPersona" />
+                                                </Identifier>
+                                              </ScalarOperator>
+                                              <ScalarOperator>
+                                                <Identifier>
+                                                  <ColumnReference Column="@IdPersona" />
+                                                </Identifier>
+                                              </ScalarOperator>
+                                            </Compare>
+                                          </ScalarOperator>
+                                        </Predicate>
+                                      </IndexScan>
+                                      <Progress xsi:nil="true" />
+                                    </RelOp>
+                                    <RelOp AvgRowSize="51" EstimateCPU="0.0001581" EstimateIO="0.003125" EstimateRebinds="0.0443207" EstimateRewinds="0.00714298" EstimatedExecutionMode="Row" EstimateRows="1" EstimatedRowsRead="1" LogicalOp="Clustered Index Seek" NodeId="4" Parallel="false" PhysicalOp="Clustered Index Seek" EstimatedTotalSubtreeCost="0.00329124" TableCardinality="50">
+                                      <OutputList>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                                      </OutputList>
+                                      <IndexScan Ordered="true" ScanDirection="FORWARD" ForcedIndex="false" ForceSeek="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                        <DefinedValues>
+                                          <DefinedValue>
+                                            <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                                          </DefinedValue>
+                                        </DefinedValues>
+                                        <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Index="[PK_tCTLsucursales]" Alias="[suc]" IndexKind="Clustered" Storage="RowStore" />
+                                        <SeekPredicates>
+                                          <SeekPredicateNew>
+                                            <SeekKeys>
+                                              <Prefix ScanType="EQ">
+                                                <RangeColumns>
+                                                  <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="IdSucursal" />
+                                                </RangeColumns>
+                                                <RangeExpressions>
+                                                  <ScalarOperator ScalarString="[intelixDEV].[dbo].[tSCSsocios].[IdSucursal] as [sc].[IdSucursal]">
+                                                    <Identifier>
+                                                      <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                                    </Identifier>
+                                                  </ScalarOperator>
+                                                </RangeExpressions>
+                                              </Prefix>
+                                            </SeekKeys>
+                                          </SeekPredicateNew>
+                                        </SeekPredicates>
+                                      </IndexScan>
+                                      <Progress xsi:nil="true" />
+                                    </RelOp>
+                                  </NestedLoops>
+                                  <Progress xsi:nil="true" />
+                                </RelOp>
+                              </NestedLoops>
+                              <Progress xsi:nil="true" />
+                            </RelOp>
+                          </QueryPlan>
+                        </StmtSimple>
+                      </Statements>
+                    </Batch>
+                  </BatchSequence>
+                  <HasLiveStatistics>false</HasLiveStatistics>
+                  <LiveCanceled>false</LiveCanceled>
+                </ShowPlanXML>
+                <QueryStatistics xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <ParseAndCompileTimeStatistic>
+                    <CpuTime>0</CpuTime>
+                    <ElapsedTime>0</ElapsedTime>
+                  </ParseAndCompileTimeStatistic>
+                  <ExecutionTimeStatistic>
+                    <CpuTime>0</CpuTime>
+                    <ElapsedTime>0</ElapsedTime>
+                  </ExecutionTimeStatistic>
+                  <InputOutputStatistics />
+                </QueryStatistics>
+              </Element>
+              <Element Name="DECLARE @IdPersona AS INT;&#xD;&#xA;SELECT @IdPersona=IdPersona FROM tGRLpersonas p WHERE p.Nombre LIKE '%'+@pElementoBuscado+'%'" StatementId="2" />
+              <Element Name="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SELECT &#xD;&#xA;suc.Descripcion AS Sucursal,&#xD;&#xA;sc.Codigo AS NoSocio,&#xD;&#xA;p.Nombre,&#xD;&#xA;p.Domicilio,&#xD;&#xA;nombre&#xD;&#xA;FROM tGRLpersonas p&#xD;&#xA;INNER JOIN tSCSsocios sc&#xD;&#xA;  ON sc.IdPersona = p.IdPersona&#xD;&#xA;INNER JOIN tCTLsucursales suc&#xD;&#xA;  ON sc.IdSucursal = suc.IdSucursal&#xD;&#xA;WHERE p.IdPersona=@IdPersona" StatementId="3" />
+            </Elements>
+          </ProfilerResult>
+          <ProfilerResult Date="2024-04-21 17:04:48Z" DisplayName="" Duration="0">
+            <SQL>
+DECLARE @pElementoBuscado AS VARCHAR(20)='lopez';
+
+
+DECLARE @IdPersona AS INT;
+SELECT @IdPersona=IdPersona FROM tGRLpersonas p WHERE p.Nombre LIKE '%'+@pElementoBuscado+'%'
+
+
+SELECT 
+suc.Descripcion AS Sucursal,
+sc.Codigo AS NoSocio,
+p.Nombre,
+p.Domicilio,
+nombre
+FROM tGRLpersonas p
+INNER JOIN tSCSsocios sc
+  ON sc.IdPersona = p.IdPersona
+INNER JOIN tCTLsucursales suc
+  ON sc.IdSucursal = suc.IdSucursal
+WHERE p.IdPersona=@IdPersona
+
+
+</SQL>
+            <Properties>
+              <PropertiesRow>
+                <Name>ConnectionString</Name>
+                <Value>Data Source=104.192.7.80;Initial Catalog=intelixDEV;Integrated Security=False;User ID=su</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ServerVersion</Name>
+                <Value>15.00.2110</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Execution Time -&gt; CPU</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Execution Time -&gt; Elapsed</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Parse and Compile Time -&gt; CPU</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Parse and Compile Time -&gt; Elapsed</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ProfilingResultTime</Name>
+                <Value>17:04:48 21/4/2024</Value>
+              </PropertiesRow>
+            </Properties>
+            <WaitStats />
+            <Elements>
+              <Element Name="&#xD;&#xA;DECLARE @pElementoBuscado AS VARCHAR(20)='lopez';&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" StatementId="1" Actual="False" SqlQuery="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SELECT &#xD;&#xA;suc.Descripcion AS Sucursal,&#xD;&#xA;sc.Codigo AS NoSocio,&#xD;&#xA;p.Nombre,&#xD;&#xA;p.Domicilio,&#xD;&#xA;nombre&#xD;&#xA;FROM tGRLpersonas p&#xD;&#xA;INNER JOIN tSCSsocios sc&#xD;&#xA;  ON sc.IdPersona = p.IdPersona&#xD;&#xA;INNER JOIN tCTLsucursales suc&#xD;&#xA;  ON sc.IdSucursal = suc.IdSucursal&#xD;&#xA;WHERE p.IdPersona=@IdPersona">
+                <ShowPlanXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.539" Build="15.0.2110.4" xmlns="http://schemas.microsoft.com/sqlserver/2004/07/showplan">
+                  <BatchSequence>
+                    <Batch>
+                      <Statements>
+                        <StmtSimple StatementCompId="1" StatementId="1" StatementText="&#xD;&#xA;DECLARE @pElementoBuscado AS VARCHAR(20)='lopez';&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" StatementType="ASSIGN" RetrievedFromCache="true" />
+                        <StmtSimple StatementCompId="2" StatementEstRows="12294.1" StatementId="2" StatementOptmLevel="FULL" CardinalityEstimationModelVersion="130" StatementSubTreeCost="6.29911" StatementText="DECLARE @IdPersona AS INT;&#xD;&#xA;SELECT @IdPersona=IdPersona FROM tGRLpersonas p WHERE p.Nombre LIKE '%'+@pElementoBuscado+'%'" StatementType="SELECT" QueryHash="0xB67B65739E63D631" QueryPlanHash="0xE3FBC4F420B0B78C" RetrievedFromCache="true" SecurityPolicyApplied="false">
+                          <StatementSetOptions ANSI_NULLS="true" ANSI_PADDING="true" ANSI_WARNINGS="true" ARITHABORT="true" CONCAT_NULL_YIELDS_NULL="true" NUMERIC_ROUNDABORT="false" QUOTED_IDENTIFIER="true" />
+                          <QueryPlan CachedPlanSize="24" CompileTime="2" CompileCPU="2" CompileMemory="264">
+                            <ThreadStat Branches="1" />
+                            <MissingIndexes>
+                              <MissingIndexGroup Impact="88.4232">
+                                <MissingIndex Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]">
+                                  <ColumnGroup Usage="INEQUALITY">
+                                    <Column Name="[Nombre]" ColumnId="2" />
+                                  </ColumnGroup>
+                                </MissingIndex>
+                              </MissingIndexGroup>
+                            </MissingIndexes>
+                            <MemoryGrantInfo SerialRequiredMemory="0" SerialDesiredMemory="0" GrantedMemory="0" MaxUsedMemory="0" />
+                            <OptimizerHardwareDependentProperties EstimatedAvailableMemoryGrant="384000" EstimatedPagesCached="192000" EstimatedAvailableDegreeOfParallelism="4" MaxCompileMemory="17476448" />
+                            <RelOp AvgRowSize="11" EstimateCPU="0.0342582" EstimateIO="0" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="12294.1" LogicalOp="Gather Streams" NodeId="0" Parallel="true" PhysicalOp="Parallelism" EstimatedTotalSubtreeCost="6.29911">
+                              <OutputList>
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                              </OutputList>
+                              <Parallelism>
+                                <RelOp AvgRowSize="140" EstimateCPU="0.0376045" EstimateIO="6.1972" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="12294.1" EstimatedRowsRead="136601" LogicalOp="Clustered Index Scan" NodeId="1" Parallel="true" PhysicalOp="Clustered Index Scan" EstimatedTotalSubtreeCost="6.2348" TableCardinality="136601">
+                                  <OutputList>
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                                  </OutputList>
+                                  <IndexScan Ordered="false" ForcedIndex="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                    <DefinedValues>
+                                      <DefinedValue>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                                      </DefinedValue>
+                                    </DefinedValues>
+                                    <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Index="[PK_tCATpersonas]" Alias="[p]" IndexKind="Clustered" Storage="RowStore" />
+                                    <Predicate>
+                                      <ScalarOperator ScalarString="[intelixDEV].[dbo].[tGRLpersonas].[Nombre] as [p].[Nombre] like '%'+[@pElementoBuscado]+'%'">
+                                        <Intrinsic FunctionName="like">
+                                          <ScalarOperator>
+                                            <Identifier>
+                                              <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                            </Identifier>
+                                          </ScalarOperator>
+                                          <ScalarOperator>
+                                            <Identifier>
+                                              <ColumnReference Column="ConstExpr1001">
+                                                <ScalarOperator>
+                                                  <Arithmetic Operation="ADD">
+                                                    <ScalarOperator>
+                                                      <Arithmetic Operation="ADD">
+                                                        <ScalarOperator>
+                                                          <Const ConstValue="'%'" />
+                                                        </ScalarOperator>
+                                                        <ScalarOperator>
+                                                          <Identifier>
+                                                            <ColumnReference Column="@pElementoBuscado" />
+                                                          </Identifier>
+                                                        </ScalarOperator>
+                                                      </Arithmetic>
+                                                    </ScalarOperator>
+                                                    <ScalarOperator>
+                                                      <Const ConstValue="'%'" />
+                                                    </ScalarOperator>
+                                                  </Arithmetic>
+                                                </ScalarOperator>
+                                              </ColumnReference>
+                                            </Identifier>
+                                          </ScalarOperator>
+                                        </Intrinsic>
+                                      </ScalarOperator>
+                                    </Predicate>
+                                  </IndexScan>
+                                  <Progress xsi:nil="true" />
+                                </RelOp>
+                              </Parallelism>
+                              <Progress xsi:nil="true" />
+                            </RelOp>
+                          </QueryPlan>
+                        </StmtSimple>
+                        <StmtSimple StatementCompId="3" StatementEstRows="1.05144" StatementId="3" StatementOptmLevel="FULL" CardinalityEstimationModelVersion="130" StatementSubTreeCost="2.51745" StatementText="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SELECT &#xD;&#xA;suc.Descripcion AS Sucursal,&#xD;&#xA;sc.Codigo AS NoSocio,&#xD;&#xA;p.Nombre,&#xD;&#xA;p.Domicilio,&#xD;&#xA;nombre&#xD;&#xA;FROM tGRLpersonas p&#xD;&#xA;INNER JOIN tSCSsocios sc&#xD;&#xA;  ON sc.IdPersona = p.IdPersona&#xD;&#xA;INNER JOIN tCTLsucursales suc&#xD;&#xA;  ON sc.IdSucursal = suc.IdSucursal&#xD;&#xA;WHERE p.IdPersona=@IdPersona" StatementType="SELECT" QueryHash="0xEC4C291692225084" QueryPlanHash="0xD0FCB9CE10444FA4" RetrievedFromCache="true" SecurityPolicyApplied="false">
+                          <StatementSetOptions ANSI_NULLS="true" ANSI_PADDING="true" ANSI_WARNINGS="true" ARITHABORT="true" CONCAT_NULL_YIELDS_NULL="true" NUMERIC_ROUNDABORT="false" QUOTED_IDENTIFIER="true" />
+                          <QueryPlan CachedPlanSize="32" CompileTime="8" CompileCPU="8" CompileMemory="480">
+                            <MissingIndexes>
+                              <MissingIndexGroup Impact="99.5849">
+                                <MissingIndex Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]">
+                                  <ColumnGroup Usage="EQUALITY">
+                                    <Column Name="[IdPersona]" ColumnId="10" />
+                                  </ColumnGroup>
+                                </MissingIndex>
+                              </MissingIndexGroup>
+                            </MissingIndexes>
+                            <MemoryGrantInfo SerialRequiredMemory="0" SerialDesiredMemory="0" GrantedMemory="0" MaxUsedMemory="0" />
+                            <OptimizerHardwareDependentProperties EstimatedAvailableMemoryGrant="384000" EstimatedPagesCached="192000" EstimatedAvailableDegreeOfParallelism="4" MaxCompileMemory="17476448" />
+                            <OptimizerStatsUsage>
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[_WA_Sys_0000000A_3DBEDDDC]" ModificationCount="1050" SamplingPercent="41.4677" LastUpdate="2017-07-26T15:46:44.85" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[UK_tSCSsocios_Codigo]" ModificationCount="1065" SamplingPercent="41.4677" LastUpdate="2017-07-26T15:46:44.7" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Statistics="[PK_tCTLsucursales]" ModificationCount="48" SamplingPercent="100" LastUpdate="2017-07-26T15:46:33.92" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[IX_tSCSsocios_IdEstatus]" ModificationCount="57" SamplingPercent="100" LastUpdate="2023-12-07T18:28:39.52" />
+                              <StatisticsInfo Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Statistics="[_WA_Sys_00000011_3DBEDDDC]" ModificationCount="1094" SamplingPercent="41.4677" LastUpdate="2017-07-26T15:46:45.04" />
+                            </OptimizerStatsUsage>
+                            <RelOp AvgRowSize="448" EstimateCPU="4.39502E-06" EstimateIO="0" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1.05144" LogicalOp="Inner Join" NodeId="0" Parallel="false" PhysicalOp="Nested Loops" EstimatedTotalSubtreeCost="2.51745">
+                              <OutputList>
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Domicilio" />
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                              </OutputList>
+                              <NestedLoops Optimized="false">
+                                <RelOp AvgRowSize="394" EstimateCPU="0.0001581" EstimateIO="0.003125" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1" EstimatedRowsRead="1" LogicalOp="Clustered Index Seek" NodeId="1" Parallel="false" PhysicalOp="Clustered Index Seek" EstimatedTotalSubtreeCost="0.0032831" TableCardinality="136601">
+                                  <OutputList>
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Domicilio" />
+                                  </OutputList>
+                                  <IndexScan Ordered="true" ScanDirection="FORWARD" ForcedIndex="false" ForceSeek="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                    <DefinedValues>
+                                      <DefinedValue>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Nombre" />
+                                      </DefinedValue>
+                                      <DefinedValue>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="Domicilio" />
+                                      </DefinedValue>
+                                    </DefinedValues>
+                                    <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Index="[PK_tCATpersonas]" Alias="[p]" IndexKind="Clustered" Storage="RowStore" />
+                                    <SeekPredicates>
+                                      <SeekPredicateNew>
+                                        <SeekKeys>
+                                          <Prefix ScanType="EQ">
+                                            <RangeColumns>
+                                              <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tGRLpersonas]" Alias="[p]" Column="IdPersona" />
+                                            </RangeColumns>
+                                            <RangeExpressions>
+                                              <ScalarOperator ScalarString="[@IdPersona]">
+                                                <Identifier>
+                                                  <ColumnReference Column="@IdPersona" />
+                                                </Identifier>
+                                              </ScalarOperator>
+                                            </RangeExpressions>
+                                          </Prefix>
+                                        </SeekKeys>
+                                      </SeekPredicateNew>
+                                    </SeekPredicates>
+                                  </IndexScan>
+                                  <Progress xsi:nil="true" />
+                                </RelOp>
+                                <RelOp AvgRowSize="63" EstimateCPU="4.39512E-06" EstimateIO="0" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1.05144" LogicalOp="Inner Join" NodeId="2" Parallel="false" PhysicalOp="Nested Loops" EstimatedTotalSubtreeCost="2.51416">
+                                  <OutputList>
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                    <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                                  </OutputList>
+                                  <NestedLoops Optimized="false">
+                                    <OuterReferences>
+                                      <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                    </OuterReferences>
+                                    <RelOp AvgRowSize="29" EstimateCPU="0.0946547" EstimateIO="2.37498" EstimateRebinds="0" EstimateRewinds="0" EstimatedExecutionMode="Row" EstimateRows="1.05146" EstimatedRowsRead="85907" LogicalOp="Clustered Index Scan" NodeId="3" Parallel="false" PhysicalOp="Clustered Index Scan" EstimatedTotalSubtreeCost="2.46963" TableCardinality="85907">
+                                      <OutputList>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                      </OutputList>
+                                      <IndexScan Ordered="false" ForcedIndex="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                        <DefinedValues>
+                                          <DefinedValue>
+                                            <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="Codigo" />
+                                          </DefinedValue>
+                                          <DefinedValue>
+                                            <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                          </DefinedValue>
+                                        </DefinedValues>
+                                        <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Index="[PK_tCATsocios]" Alias="[sc]" IndexKind="Clustered" Storage="RowStore" />
+                                        <Predicate>
+                                          <ScalarOperator ScalarString="[intelixDEV].[dbo].[tSCSsocios].[IdPersona] as [sc].[IdPersona]=[@IdPersona]">
+                                            <Compare CompareOp="EQ">
+                                              <ScalarOperator>
+                                                <Identifier>
+                                                  <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdPersona" />
+                                                </Identifier>
+                                              </ScalarOperator>
+                                              <ScalarOperator>
+                                                <Identifier>
+                                                  <ColumnReference Column="@IdPersona" />
+                                                </Identifier>
+                                              </ScalarOperator>
+                                            </Compare>
+                                          </ScalarOperator>
+                                        </Predicate>
+                                      </IndexScan>
+                                      <Progress xsi:nil="true" />
+                                    </RelOp>
+                                    <RelOp AvgRowSize="51" EstimateCPU="0.0001581" EstimateIO="0.003125" EstimateRebinds="0.0443207" EstimateRewinds="0.00714298" EstimatedExecutionMode="Row" EstimateRows="1" EstimatedRowsRead="1" LogicalOp="Clustered Index Seek" NodeId="4" Parallel="false" PhysicalOp="Clustered Index Seek" EstimatedTotalSubtreeCost="0.00329124" TableCardinality="50">
+                                      <OutputList>
+                                        <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                                      </OutputList>
+                                      <IndexScan Ordered="true" ScanDirection="FORWARD" ForcedIndex="false" ForceSeek="false" ForceScan="false" NoExpandHint="false" Storage="RowStore">
+                                        <DefinedValues>
+                                          <DefinedValue>
+                                            <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="Descripcion" />
+                                          </DefinedValue>
+                                        </DefinedValues>
+                                        <Object Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Index="[PK_tCTLsucursales]" Alias="[suc]" IndexKind="Clustered" Storage="RowStore" />
+                                        <SeekPredicates>
+                                          <SeekPredicateNew>
+                                            <SeekKeys>
+                                              <Prefix ScanType="EQ">
+                                                <RangeColumns>
+                                                  <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tCTLsucursales]" Alias="[suc]" Column="IdSucursal" />
+                                                </RangeColumns>
+                                                <RangeExpressions>
+                                                  <ScalarOperator ScalarString="[intelixDEV].[dbo].[tSCSsocios].[IdSucursal] as [sc].[IdSucursal]">
+                                                    <Identifier>
+                                                      <ColumnReference Database="[intelixDEV]" Schema="[dbo]" Table="[tSCSsocios]" Alias="[sc]" Column="IdSucursal" />
+                                                    </Identifier>
+                                                  </ScalarOperator>
+                                                </RangeExpressions>
+                                              </Prefix>
+                                            </SeekKeys>
+                                          </SeekPredicateNew>
+                                        </SeekPredicates>
+                                      </IndexScan>
+                                      <Progress xsi:nil="true" />
+                                    </RelOp>
+                                  </NestedLoops>
+                                  <Progress xsi:nil="true" />
+                                </RelOp>
+                              </NestedLoops>
+                              <Progress xsi:nil="true" />
+                            </RelOp>
+                          </QueryPlan>
+                        </StmtSimple>
+                      </Statements>
+                    </Batch>
+                  </BatchSequence>
+                  <HasLiveStatistics>false</HasLiveStatistics>
+                  <LiveCanceled>false</LiveCanceled>
+                </ShowPlanXML>
+                <QueryStatistics xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <ParseAndCompileTimeStatistic>
+                    <CpuTime>0</CpuTime>
+                    <ElapsedTime>0</ElapsedTime>
+                  </ParseAndCompileTimeStatistic>
+                  <ExecutionTimeStatistic>
+                    <CpuTime>0</CpuTime>
+                    <ElapsedTime>0</ElapsedTime>
+                  </ExecutionTimeStatistic>
+                  <InputOutputStatistics />
+                </QueryStatistics>
+              </Element>
+              <Element Name="DECLARE @IdPersona AS INT;&#xD;&#xA;SELECT @IdPersona=IdPersona FROM tGRLpersonas p WHERE p.Nombre LIKE '%'+@pElementoBuscado+'%'" StatementId="2" />
+              <Element Name="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SELECT &#xD;&#xA;suc.Descripcion AS Sucursal,&#xD;&#xA;sc.Codigo AS NoSocio,&#xD;&#xA;p.Nombre,&#xD;&#xA;p.Domicilio,&#xD;&#xA;nombre&#xD;&#xA;FROM tGRLpersonas p&#xD;&#xA;INNER JOIN tSCSsocios sc&#xD;&#xA;  ON sc.IdPersona = p.IdPersona&#xD;&#xA;INNER JOIN tCTLsucursales suc&#xD;&#xA;  ON sc.IdSucursal = suc.IdSucursal&#xD;&#xA;WHERE p.IdPersona=@IdPersona" StatementId="3" />
+            </Elements>
+          </ProfilerResult>
+        </ProfilerHistory>
+      </Data>
+    </View>
+    <View Name="PivotGrid" Visible="False" />
+  </Views>
+  <LiveProfilingMode Enabled="False" />
+</Document>
