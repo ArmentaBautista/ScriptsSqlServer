@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Bankingly">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="104.192.7.80:su">
+          <Created>2023-02-13T22:44:00.7817269-06:00</Created>
+          <Type>SQL</Type>
+          <Server>104.192.7.80</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="74.208.16.140:su">
+          <Created>2023-04-06T09:47:19.2282474-06:00</Created>
+          <Type>SQL</Type>
+          <Server>74.208.16.140</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="74.208.168.84:su">
+          <Created>2023-05-10T11:23:40.5778543-06:00</Created>
+          <Type>SQL</Type>
+          <Server>74.208.168.84</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00.1 Type BKGaccountMovements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00.1 Type BKGaccountMovements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00.2 Type BKGgetLoan.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00.2 Type BKGgetLoan.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00A tAYCcaptacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00A tAYCcaptacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00B tBKGcatalogoCanTransactType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00B tBKGcatalogoCanTransactType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00C tBKGcatalogoDocumentType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00C tBKGcatalogoDocumentType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00D tBKGbackendOperationItemResult.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00D tBKGbackendOperationItemResult.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00E tBKGcatalogoLoanFeeStatus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00E tBKGcatalogoLoanFeeStatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00F tBKGcatalogoMovementTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00F tBKGcatalogoMovementTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00G tBKGcatalogoProductStatus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00G tBKGcatalogoProductStatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00H tBKGcatalogoProductTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00H tBKGcatalogoProductTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00I tBKGcatalogoThirdPartyProductTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00I tBKGcatalogoThirdPartyProductTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00J tBKGcatalogoTransactionTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00J tBKGcatalogoTransactionTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00K tBKGcatalogoTransactionSubTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00K tBKGcatalogoTransactionSubTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00L tBKGproductosCanTransactType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00L tBKGproductosCanTransactType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00M tBKGtipoMovimientoMovementTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00M tBKGtipoMovimientoMovementTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00Ñ tBKGcatalogoDocumentType_DummyData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00Ñ tBKGcatalogoDocumentType_DummyData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00N tBKGpeticionesInsertMasiveTransaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00N tBKGpeticionesInsertMasiveTransaction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00O tBKGcatalogoProductTypes_DummyData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00O tBKGcatalogoProductTypes_DummyData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00P tBKGcatalogoCanTransactType_DummyData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00P tBKGcatalogoCanTransactType_DummyData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00Q tBKGproductosCanTransactType_DummyData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00Q tBKGproductosCanTransactType_DummyData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="00R tBKGtipoMovimientoMovementTypes_DummyData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.16.140:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.16.140</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>00R tBKGtipoMovimientoMovementTypes_DummyData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 pBKGgetClientsByDocument.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01 pBKGgetClientsByDocument.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.0 pBKGparseOrderBy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.0 pBKGparseOrderBy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.1 pBKGTransferenciaCuentasPropiasAhorro.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.1 pBKGTransferenciaCuentasPropiasAhorro.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.2 pBKGTransferenciaCuentasTerceroAhorro.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.2 pBKGTransferenciaCuentasTerceroAhorro.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.3 pBKGTransferenciaPagoCredito.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.3 pBKGTransferenciaPagoCredito.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.5 pBKGValidacionesCuentas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.5 pBKGValidacionesCuentas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01.6 fnBKGobtenerBeneficiarioMayorPorcentaje.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>01.6 fnBKGobtenerBeneficiarioMayorPorcentaje.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 pBKGgetProducts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>02 pBKGgetProducts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 pBKGgetProductsConsolidatedPosition.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>04 pBKGgetProductsConsolidatedPosition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 pBKGgetAccountDetails.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>08 pBKGgetAccountDetails.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 pBKGgetAccountLast5Movements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>09 pBKGgetAccountLast5Movements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 pBKGgetAccountMovements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>10 pBKGgetAccountMovements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 pBKGgetProductOwnerAndCurrency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>11 pBKGgetProductOwnerAndCurrency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 pBKGgetFixedTermDeposit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>12 pBKGgetFixedTermDeposit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 pBKGgetLoan.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>13 pBKGgetLoan.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15 pBKGgetLoanFees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>15 pBKGgetLoanFees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16 pBKGgetLoanRates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>16 pBKGgetLoanRates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18 pBKGgetLoanPayments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>18 pBKGgetLoanPayments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19 pBKGinsertTransaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>19 pBKGinsertTransaction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="60 pBKGgetProductBankStatements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>60 pBKGgetProductBankStatements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="61 pBKGgetProductBankStatementFile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>61 pBKGgetProductBankStatementFile.sql</FullPath>
+        </FileNode>
+        <FileNode Name="62 pBKGgetTransactionCost.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>62 pBKGgetTransactionCost.sql</FullPath>
+        </FileNode>
+        <FileNode Name="72 pBKGinsertMassiveTransaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>72 pBKGinsertMassiveTransaction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="86 pBKGgetTransactionVoucher.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>86 pBKGgetTransactionVoucher.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.1 pBKGgetMassiveTransactionBackEndInformation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.1 pBKGgetMassiveTransactionBackEndInformation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.2 pAYCcaptacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.2 pAYCcaptacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.3 vBKG_FMTticketTransaccion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.3 vBKG_FMTticketTransaccion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.4 VOUCHER fFMTticketTransaccionFinancieraBKG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.4 VOUCHER fFMTticketTransaccionFinancieraBKG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.5 VOUCHER vFMTticketBKG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.5 VOUCHER vFMTticketBKG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.6 VOUCHER vFMTticketOperacionesRelacionadasDetalleBKG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.6 VOUCHER vFMTticketOperacionesRelacionadasDetalleBKG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99.7 VOUCHER vFMTticketTransaccionBKG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>99.7 VOUCHER vFMTticketTransaccionBKG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NA jCaptacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>NA jCaptacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NA WF Consulta 11.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>NA WF Consulta 11.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NA Workfile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>NA Workfile.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
