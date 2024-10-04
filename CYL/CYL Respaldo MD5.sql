@@ -1,0 +1,11 @@
+
+
+BACKUP DATABASE AdventureWorks2019
+TO DISK = 'C:\Shared\AdventureWorks2012_CHECKSUM.BAK'
+WITH CHECKSUM;
+
+
+
+RESTORE VERIFYONLY FROM DISK = 'C:\Shared\AdventureWorks2012_CHECKSUM.BAK'
+
+

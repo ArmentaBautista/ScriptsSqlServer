@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CYL_PRYBE">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="104.192.7.80:su">
+          <Created>2023-08-09T12:40:51.7734329-06:00</Created>
+          <Type>SQL</Type>
+          <Server>104.192.7.80</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>intelixDEV</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>SQL Server Management Studio</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="cyl.erprise.mx:su">
+          <Created>2023-08-09T19:03:27.3345493-06:00</Created>
+          <Type>SQL</Type>
+          <Server>cyl.erprise.mx</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="02 tSEGproductosDias.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>02 tSEGproductosDias.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 tSEGproductos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>04 tSEGproductos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 pSEGllenadoProductosDias.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>05 pSEGllenadoProductosDias.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 pSEGllenadoProductos144.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>06 pSEGllenadoProductos144.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 pSEGllenadoProductos398.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>07 pSEGllenadoProductos398.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 pSEGprybeCaptacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>08 pSEGprybeCaptacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NA 03 tSEGproductosRangoSaldo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>NA 03 tSEGproductosRangoSaldo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NA 05 tSEGcaptacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>NA 05 tSEGcaptacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Workfile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cyl.erprise.mx:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cyl.erprise.mx</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>Workfile.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

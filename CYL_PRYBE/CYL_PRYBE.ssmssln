@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CYL_PRYBE", "CYL_PRYBE.ssmssqlproj", "{14BE12BE-C608-4D48-8C63-3F60631C72BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF34B5F-EB5D-4BD0-A128-4B69ECDBBAC7}.Default|Default.ActiveCfg = Default
+		{14BE12BE-C608-4D48-8C63-3F60631C72BA}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C15E93FD-2FB6-48C8-8712-4BA05EB0C47E}
+	EndGlobalSection
+EndGlobal
