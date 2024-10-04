@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CPO Escalamiento">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="172.28.1.16:alejandro">
+          <Created>2023-01-11T22:45:42.4870599-06:00</Created>
+          <Type>SQL</Type>
+          <Server>172.28.1.16</Server>
+          <UserName>alejandro</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>IERP_OBL</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="172.28.1.16:obls2">
+          <Created>2023-01-12T01:56:42.2375285-06:00</Created>
+          <Type>SQL</Type>
+          <Server>172.28.1.16</Server>
+          <UserName>obls2</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>IERP_OBL</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Acumulados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>Acumulados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Consulta datos prueba Escalamiento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>Consulta datos prueba Escalamiento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.fPLDvalidarEscalamientoOperacionesTest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>dbo.fPLDvalidarEscalamientoOperacionesTest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fPLDvalidarEscalamientoOperaciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>fPLDvalidarEscalamientoOperaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>Indice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pCnPLDescalamientosOperacionePeriodo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:obls2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>obls2</AssociatedConnUserName>
+          <FullPath>pCnPLDescalamientosOperacionePeriodo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pruebas Escalamiento 01.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>Pruebas Escalamiento 01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pruebas Escalamiento 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pruebas Escalamiento 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pruedas Orden Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>Pruedas Orden Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VARIABLES TABLA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:172.28.1.16:False:alejandro</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>172.28.1.16</AssociatedConnSrvName>
+          <AssociatedConnUserName>alejandro</AssociatedConnUserName>
+          <FullPath>VARIABLES TABLA.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

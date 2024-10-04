@@ -1,0 +1,3 @@
+﻿)SELECT TOP 1 @IdNuevo = [IdOperacion], @CodigoNuevo = [Folio]  
+FROM  [vGRLoperacionesMovimientosBancariosBAS]  WITH (NOLOCK) 
+WHERE NOT [IdOperacion] = 0  AND Serie='' AND IdSucursal=2  ORDER BY [FolioIdSesion] DESC

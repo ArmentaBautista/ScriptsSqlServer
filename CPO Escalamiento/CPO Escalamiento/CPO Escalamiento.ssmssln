@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CPO Escalamiento", "CPO Escalamiento.ssmssqlproj", "{ED38B92D-6D86-40D4-930F-A0D47661C3C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED38B92D-6D86-40D4-930F-A0D47661C3C5}.Default|Default.ActiveCfg = Default
+		{37608CB6-1E45-448B-B43E-60C5314EC646}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99D25B0E-97F9-434F-97FD-FC6EA5E0D9E5}
+	EndGlobalSection
+EndGlobal
