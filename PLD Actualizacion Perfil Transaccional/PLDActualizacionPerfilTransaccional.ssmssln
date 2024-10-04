@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PldActualizacionPerfilTransaccional", "PldActualizacionPerfilTransaccional\PldActualizacionPerfilTransaccional.ssmssqlproj", "{A0E73F3F-818A-4C4D-9EB2-7A9AFF8AA011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F885AC-75FF-4A50-98ED-F0643A6A03FC}.Default|Default.ActiveCfg = Default
+		{A0E73F3F-818A-4C4D-9EB2-7A9AFF8AA011}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22A7CE9A-AAD4-48BC-9C32-406EC3E8D231}
+	EndGlobalSection
+EndGlobal

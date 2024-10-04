@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PLD EVAL Nivel Riesgo Socio">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="74.208.168.84:su">
+          <Created>2023-01-07T03:18:02.5579795-06:00</Created>
+          <Type>SQL</Type>
+          <Server>74.208.168.84</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="fnPLDmatrizEvaluacionEdades.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fnPLDmatrizEvaluacionEdades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY CONFIGURACION PODERACIONES.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>INSERT DUMMY CONFIGURACION PODERACIONES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY DE EDADES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>INSERT DUMMY DE EDADES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY GEOGRAFÍA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>INSERT DUMMY GEOGRAFÍA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY INGRESOS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>INSERT DUMMY INGRESOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY INSTRUMENTOS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>INSERT DUMMY INSTRUMENTOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY LISTAS Y TERCEROS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>INSERT DUMMY LISTAS Y TERCEROS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY NIVELES DE RIESGO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>INSERT DUMMY NIVELES DE RIESGO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY PRDUCTOS SERVICIOS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>INSERT DUMMY PRDUCTOS SERVICIOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DUMMY TRANSACCIONALIDAD.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>INSERT DUMMY TRANSACCIONALIDAD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLD Evaluacion Nivel de Riesgo v2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>PLD Evaluacion Nivel de Riesgo v2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PLD Evaluacion Nivel de Riesgo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>PLD Evaluacion Nivel de Riesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pPLDevaluacionDeRiesgo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pPLDevaluacionDeRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionEdades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>tPLDmatrizConfiguracionEdades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionGenero.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>tPLDmatrizConfiguracionGenero.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionGeografia.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionGeografia.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionIngresos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionIngresos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionInstrumentos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionInstrumentos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionListas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionListas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionNivelesRiesgo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionNivelesRiesgo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionPonderaciones.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionPonderaciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionProductosServicios.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionProductosServicios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionTipoSocio.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:74.208.168.84:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>74.208.168.84</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>tPLDmatrizConfiguracionTipoSocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizConfiguracionTransaccionalidad.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizConfiguracionTransaccionalidad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tPLDmatrizEvaluacionesRiesgo ALL TABLES.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tPLDmatrizEvaluacionesRiesgo ALL TABLES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF Test sp evaluacion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WF Test sp evaluacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WORKFILE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WORKFILE.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

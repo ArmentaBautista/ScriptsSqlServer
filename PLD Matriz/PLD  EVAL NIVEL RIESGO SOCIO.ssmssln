@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PLD EVAL Nivel Riesgo Socio", "..\..\..\..\Users\carlos\Documents\SQL Server Management Studio\PLD EVAL Nivel Riesgo Socio\PLD EVAL Nivel Riesgo Socio.ssmssqlproj", "{7E49F15F-BBC4-4772-B9F5-25A119FBADA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB1A440-652F-40E7-8B64-48A1EF64988B}.Default|Default.ActiveCfg = Default
+		{7E49F15F-BBC4-4772-B9F5-25A119FBADA9}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8A24232-1629-4315-AFBA-A0A6A8E8224D}
+	EndGlobalSection
+EndGlobal

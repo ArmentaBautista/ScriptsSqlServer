@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "LimitesMetodoPago", "LimitesMetodoPago.ssmssqlproj", "{1D2BB36D-22DB-4C26-9D7C-2E7E7644B16A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88DF366-3379-407E-AFCB-FD6A3F78CB48}.Default|Default.ActiveCfg = Default
+		{1D2BB36D-22DB-4C26-9D7C-2E7E7644B16A}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30CBE879-E662-406E-83DC-A79A74E1D6C3}
+	EndGlobalSection
+EndGlobal

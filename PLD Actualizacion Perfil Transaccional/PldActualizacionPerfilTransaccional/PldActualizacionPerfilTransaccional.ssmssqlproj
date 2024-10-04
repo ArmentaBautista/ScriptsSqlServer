@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PldActualizacionPerfilTransaccional">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="104.192.7.80:su">
+          <Created>2024-04-10T18:50:35.9414684-06:00</Created>
+          <Type>SQL</Type>
+          <Server>104.192.7.80</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="cyl.erprise.mx:su">
+          <Created>2024-02-05T21:42:15.1064294-06:00</Created>
+          <Type>SQL</Type>
+          <Server>cyl.erprise.mx</Server>
+          <UserName>su</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0.00  README.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.00  README.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.01 tPLDactualizacionesPerflTransaccionalE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.01 tPLDactualizacionesPerflTransaccionalE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.02 tPLDactualizacionesPerflTransaccionalD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>0.02 tPLDactualizacionesPerflTransaccionalD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.00 fnPLDpersonasActualizadasRangoFechas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>2.00 fnPLDpersonasActualizadasRangoFechas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.00 pPLDactualizacionPerfilTransaccional.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.00 pPLDactualizacionPerfilTransaccional.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.01 pPLDPTactualizacionesPerfilTransaccional.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.01 pPLDPTactualizacionesPerfilTransaccional.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.02 pCnPLDPTactualizacionesPerfilTransaccional.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.02 pCnPLDPTactualizacionesPerfilTransaccional.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.03 pCnPLDPTresultadosActualizacionesPerfilTransaccional.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.03 pCnPLDPTresultadosActualizacionesPerfilTransaccional.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.04 pCnPLDPTactualizacionesPerfilTransaccionalSocio.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.04 pCnPLDPTactualizacionesPerfilTransaccionalSocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.05 pCnPLDPTactualizacionesPerfilTransaccionalPersona.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>3.05 pCnPLDPTactualizacionesPerfilTransaccionalPersona.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery20.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:104.192.7.80:False:su</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>104.192.7.80</AssociatedConnSrvName>
+          <AssociatedConnUserName>su</AssociatedConnUserName>
+          <FullPath>SQLQuery20.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
