@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "APIandMail", "APIandMail\APIandMail.ssmssqlproj", "{D8CC266C-A1F5-4AF4-9D80-405A80E74579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8CC266C-A1F5-4AF4-9D80-405A80E74579}.Default|Default.ActiveCfg = Default
+		{2A9FD0AD-3022-4F99-AE71-D79F2101D715}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DE8A2C0-77A8-49AF-92AA-1AE77E883EE5}
+	EndGlobalSection
+EndGlobal

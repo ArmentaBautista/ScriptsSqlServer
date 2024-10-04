@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AuditoriaActividadErprise", "AuditoriaActividadErprise\AuditoriaActividadErprise.ssmssqlproj", "{49D625ED-29A1-40C6-BB18-C9882F2BF5D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3CBFB1-4D3B-431A-8175-729BF381C15C}.Default|Default.ActiveCfg = Default
+		{49D625ED-29A1-40C6-BB18-C9882F2BF5D8}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5F54401-DB83-4F7D-8486-B3B08CD7FC91}
+	EndGlobalSection
+EndGlobal
