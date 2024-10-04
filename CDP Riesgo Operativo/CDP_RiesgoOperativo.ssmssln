@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Riesgo Operativo", "Riesgo Operativo\Riesgo Operativo.ssmssqlproj", "{EC92DF0A-684A-4893-88D4-C612F63B4DFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37626C0-B14C-4D3F-B0AF-50CE3C82BAE5}.Default|Default.ActiveCfg = Default
+		{EC92DF0A-684A-4893-88D4-C612F63B4DFA}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B572454-A130-4244-A3B5-6F327B0A0E1B}
+	EndGlobalSection
+EndGlobal

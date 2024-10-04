@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ConfirmacionSaldos", "ConfirmacionSaldos\ConfirmacionSaldos.ssmssqlproj", "{5F5C83FC-8E19-4A47-81B5-0E0E62B74D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C82260-19AC-4E56-BF86-68F6DCB8C100}.Default|Default.ActiveCfg = Default
+		{5F5C83FC-8E19-4A47-81B5-0E0E62B74D2F}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FCF606F-D5D3-4A99-B687-5374D57E8DAB}
+	EndGlobalSection
+EndGlobal
