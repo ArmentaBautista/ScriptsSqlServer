@@ -17,7 +17,6 @@ INNER JOIN dbo.tGRLpersonas p  WITH(NOLOCK) ON p.IdPersona = sc.IdPersona WHERE 
 
 
 
-/* =^..^=   =^..^=   =^..^=    =^..^=    =^..^=    =^..^=    =^..^= */
 -- INSERT DE SOCIOS Y PERSONAS
 
 SELECT sc.IdSocio,sc.IdPersona,sc.Edad,sc.IdPersonaFisica,sc.ExentaIVA,sc.IdPersonaMoral,sc.EsSocioValido,sc.Sexo,sc.IdEstadoNacimiento,sc.IdRelDomicilios,sc.IdSucursal,sc.IdListaDOcupacion,
