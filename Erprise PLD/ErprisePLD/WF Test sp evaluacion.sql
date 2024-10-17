@@ -2,7 +2,7 @@
 USE intelixDEV
 GO
 
-DECLARE @nombreBuscado AS VARCHAR(64)='meza meza'
+DECLARE @nombreBuscado AS VARCHAR(64)='VERENICE I'
 
 SELECT sc.IdSocio, sc.Codigo, sc.EsSocioValido, sc.FechaAlta, p.IdPersona, p.Nombre
 FROM dbo.tSCSsocios sc  WITH(NOLOCK) 
@@ -32,10 +32,10 @@ WHERE sc.Codigo LIKE '%' + @nombreBuscado + '%'
 --SELECT @pOutIdEvaluacionRiesgo1 ,@pOutCalificacion1 ,@pOutNivelRiesgo1 , @pOutNivelRiesgoDescripcion1
 
 
-DECLARE @Fecha AS DATE='20190322'
-EXEC dbo.pPLDevaluacionDeRiesgo @pIdSocio = 0,                                                    
+DECLARE @Fecha AS DATE='20241016'
+EXEC dbo.pPLDevaluacionDeRiesgo @pIdSocio = 134917,                                                    
 								@pnosocio = '',
-								@pEvaluacionMasiva=1,
+								@pEvaluacionMasiva=0,
                                 @pFechaTrabajo = @Fecha,
 								@pDEBUG=1
 
